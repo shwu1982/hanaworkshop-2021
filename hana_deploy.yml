@@ -11,6 +11,8 @@
     sap_hana_deployment_root_password: "mysecretpassword"
     sap_hana_deployment_sapadm_password: "mysecretpassword"
     sap_hana_deployment_common_master_password: "R3dh4t123!"
+    sap_hana_deployment_sidadm_password: "R3dh4t123!"
+
 
     sap_hana_deployment_hana_sid: RHE
     sap_hana_deployment_hana_instance_number: "01"
