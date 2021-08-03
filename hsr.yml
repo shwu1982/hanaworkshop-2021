@@ -1,0 +1,13 @@
+---
+
+- hosts: hanas
+
+  vars:
+  
+    sap_hana_hsr_hana_sid: "RHE"
+    sap_hana_hsr_hana_instance_number: "00"
+    sap_hana_hsr_hana_db_system_password: "R3dh4t123!"
+    sap_hana_hsr_hana_primary_hostname: "hana-qb9vf1"
+
+  roles:
+    - redhat_sap.sap_hana_hsr
