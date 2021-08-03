@@ -18,8 +18,8 @@
     sap_hana_deployment_hana_instance_number: "01"
     sap_hana_deployment_hana_env_type: development
     sap_hana_deployment_hana_mem_restrict: 'n'
-    sap_hana_deployment_hana_db_system_password: "mysecretpassword"
-    sap_hana_deployment_ase_user_password: "mysecretpassword"
+    sap_hana_deployment_hana_db_system_password: "R3dh4t123!"
+    sap_hana_deployment_ase_user_password: "R3dh4t123!"
     sap_hana_deployment_apply_license: false
 
   roles:
