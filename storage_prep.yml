@@ -6,7 +6,6 @@
     storage_pools:
       - name: sap
         disks:
-          - sda
           - sdb
         volumes:
           - name: data
