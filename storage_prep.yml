@@ -6,7 +6,8 @@
     storage_pools:
       - name: sap
         disks:
-          - sdb
+          #- sdb
+          - xvdf
         volumes:
           - name: data
             size: "128 GiB"
