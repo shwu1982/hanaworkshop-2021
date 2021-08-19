@@ -8,6 +8,11 @@
     sap_hana_hsr_hana_instance_number: "01"
     sap_hana_hsr_hana_db_system_password: "R3dh4t123!"
     sap_hana_hsr_hana_primary_hostname: "hana-qb9vf1"
+    
+    #sample for AWS environment
+    sap_hana_hsr_full_primary_hostname: "hana1.37fc.internal"
+    sap_hana_hsr_full_secondary_hostname: "hana2.37fc.internal"
+
 
   roles:
     - redhat_sap.sap_hana_hsr
