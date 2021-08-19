@@ -1,0 +1,10 @@
+---
+- hosts: hanas
+
+  vars:
+    sap_rhsm_server_hostname: 'cdn.redhat.com'
+    sap_rhsm_org_id: '7728826'
+    rhsm_activationkey: '37fc'
+
+  roles:
+    - redhat_sap.sap_rhsm
