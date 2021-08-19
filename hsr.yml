@@ -9,7 +9,7 @@
     sap_hana_hsr_hana_db_system_password: "R3dh4t123!"
     sap_hana_hsr_hana_primary_hostname: "hana-qb9vf1"
     
-    #sample for AWS environment
+    #sample for AWS environment (Change 37fc to fit the lab 
     sap_hana_hsr_full_primary_hostname: "hana1.37fc.internal"
     sap_hana_hsr_full_secondary_hostname: "hana2.37fc.internal"
 
