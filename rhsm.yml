@@ -12,6 +12,9 @@
   - name: re-register
     action: command subscription-manager register --org=7728826 --activationkey=37fc --force
 
+  - name: enable e4s repo
+    action: command subscription-manager repos --enable=rhel-8-for-x86_64-sap-solutions-e4s-rpms
+
 
 #  vars:
 #    sap_rhsm_server_hostname: ''
