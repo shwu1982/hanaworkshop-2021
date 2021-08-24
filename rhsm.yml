@@ -7,7 +7,7 @@
       state: "absent"
 
   - name: clean
-    action: command subscription-manager refresh
+    action: command subscription-manager clean
 
   - name: re-register
     action: command subscription-manager register --org=7728826 --activationkey=37fc --force
