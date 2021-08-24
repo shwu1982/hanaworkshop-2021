@@ -14,6 +14,9 @@
 
   - name: Disable all repos
     action: command subscription-manager repos --disable="*"
+    
+  - name: Set release lock
+    aciton:  subscription-manager release --set=8.4
 
   - name: enable SAP repos
     action: command subscription-manager repos --enable=rhel-8-for-x86_64-baseos-e4s-rpms --enable=rhel-8-for-x86_64-appstream-e4s-rpms --enable=rhel-8-for-x86_64-sap-solutions-e4s-rpms
