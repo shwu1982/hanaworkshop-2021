@@ -1,0 +1,10 @@
+---
+- name: Transfer and execute a script.
+  hosts: hanas
+
+  tasks:
+  - name: Transfer the script
+    copy: src=pkg_fix.sh dest=/home/ec2-user mode=0777
+
+  - name: Execute the script
+    command: sh /home/ec2-user/pkg_fix.sh
